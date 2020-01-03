@@ -36,4 +36,5 @@ public class DefaultCountingOutRhymer {
     }
 
     //3. Nie ma juz zadnych nieprywatnych pol.
+    //4. Nie ma zadnych nieuzywanych setterow.
 }

@@ -28,3 +28,4 @@ public class DefaultRhymersFactory implements Rhymersfactory {
     }
 
 }
+//Kombinacja klawiszy alt + -> powoduje przejscie do zakladki obok.

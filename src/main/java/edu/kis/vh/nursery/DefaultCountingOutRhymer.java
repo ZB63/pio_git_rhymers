@@ -4,7 +4,11 @@ public class DefaultCountingOutRhymer {
 
     private int[] numbers = new int[12];
 
-    public int total = -1;
+    public int getTotal() {
+        return total;
+    }
+
+    private int total = -1;
 
     public void countIn(int in) {
         if (!isFull())
@@ -31,4 +35,6 @@ public class DefaultCountingOutRhymer {
         return numbers[total--];
     }
 
+    //3. Nie ma juz zadnych nieprywatnych pol.
+    //4. Nie ma zadnych nieuzywanych setterow.
 }

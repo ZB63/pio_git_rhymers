@@ -35,4 +35,5 @@ public class DefaultCountingOutRhymer {
         return numbers[total--];
     }
 
+    //3. Nie ma juz zadnych nieprywatnych pol.
 }
